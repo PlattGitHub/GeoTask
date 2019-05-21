@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GeoTask</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="no_services">Google Services are not available on this device.</string>
+    <string name="set_location_warning">You need to set location first</string>
+    <string name="set_location_wrong">You entered incorrect values</string>
+    <string name="channel_name">Geofencing channel</string>
+    <string name="geofence_service_notification_text">Geofencing is working</string>
+    <string name="broadcast_notification_text">You entered geofencing area!!! %1$s %2$s</string>
+    <string name="geofencing_notification_title">Geofencing</string>
+    <string name="geofence_toast_success">Geofence has been successfully added</string>
+    <string name="geofence_toast_fail">Failed to add geofence</string>
+</resources>
