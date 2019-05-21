@@ -31,8 +31,6 @@ import com.google.android.material.textfield.TextInputEditText
  */
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
-    private lateinit var map: GoogleMap
-
     private val fusedLocationClient: FusedLocationProviderClient by lazy {
         LocationServices.getFusedLocationProviderClient(this)
     }
@@ -47,6 +45,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var longitudeInput: TextInputEditText
     private lateinit var enableLocationSwitch: Switch
     private lateinit var mapLayout: LinearLayout
+    private lateinit var map: GoogleMap
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
